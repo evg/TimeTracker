@@ -1,0 +1,36 @@
+GUI
+---
+
+Table with each row having task name, time spent in hh:mm:ss, indicator at running task.
+Start button starts task at selected row. Warning when selected date is not today.
+Double clicking row starts task at selected row. Warning when selected date is not today.
+Stop button stops running task. Enabled only when running task exists.
+Double clicking running row stops running task.
+
+Save button persists (todays) info.
+
+List with dates
+Selecting a date changes info in table to selected date's timings.
+Warning when selecting date while time is running.
+
+
+
+Walking skeleton
+----------------
+Minimal path through Swing, application, and persistent store (flat file).
+
+Outline of test
+
+When 5 hours have been spent on task A today
+and a user starts the timetracker
+the timetracker displays 05:00:00 for task A
+
+*******
+Bij Walking skeleton al productie classes aan het schrijven, bijv. Spending met
+taskName en hoursSpent, en printOn() method. Zonder dat er een unit test voor
+geschreven is.
+Gebeurde dat in boek ook?
+*******
+ApplicationRunner is een test class, bevat aanroep naar WindowLicker.
+Start dus alleen applicatie in testomgeving, is niet de launcher voor de uiteindelijke
+productie versie.

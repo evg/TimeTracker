@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tst"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/jmock-2.5.1/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/tools.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-DEV.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-DEV-src.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-tests-DEV.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV-src.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-tests-DEV.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
