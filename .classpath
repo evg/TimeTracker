@@ -11,7 +11,7 @@
 	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-DEV.jar"/>
 	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-DEV-src.jar"/>
 	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-core-tests-DEV.jar"/>
-	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV.jar"/>
+	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV.jar" sourcepath="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV.jar"/>
 	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-DEV-src.jar"/>
 	<classpathentry kind="lib" path="/home/edwin/apps/windowlicker-read-only/build/jars/windowlicker-swing-tests-DEV.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>

@@ -1,15 +1,18 @@
 package end2end;
 
+import static com.objogate.wl.swing.matcher.JLabelTextMatcher.withLabelText;
+import static org.hamcrest.core.IsEqual.equalTo;
 import nl.evg.timetracker.Main;
 
 import com.objogate.wl.swing.AWTEventQueueProber;
 import com.objogate.wl.swing.driver.JFrameDriver;
-import com.objogate.wl.swing.driver.JLabelDriver;
+import com.objogate.wl.swing.driver.JTableDriver;
 import com.objogate.wl.swing.gesture.GesturePerformer;
-import static org.hamcrest.core.IsEqual.*;
+
 
 public class TimeTrackerDriver extends JFrameDriver {
 
+	@SuppressWarnings("unchecked")
 	public TimeTrackerDriver()
 	{
 		super(new GesturePerformer(),
@@ -19,6 +22,6 @@ public class TimeTrackerDriver extends JFrameDriver {
 	}
 
 	public void showsHoursForTask(String taskName, int i) {
-		new JLabelDriver(this, named(Main.HOURS_FIELD_NAME)).hasText(equalTo(""+i));
+		new JTableDriver(this).hasCell(withLabelText(equalTo(""+i)));
 	}
 }
